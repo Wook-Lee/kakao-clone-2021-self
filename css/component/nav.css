@@ -1,0 +1,36 @@
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 100px;
+    font-size: 35px;
+    background-color: rgb(249, 249, 250);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-list li:not(.current){
+    opacity: 0.1;
+}
+.nav-list li{
+    position: relative;
+    cursor: pointer;
+}
+.nav-list a{
+    color: black;
+}
+.nav-list li:nth-child(2) span{
+    display: flex;
+    background-color: tomato;
+    font-size: 15px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 5px 8px;
+    border-radius: 100%;
+    color: white;
+}

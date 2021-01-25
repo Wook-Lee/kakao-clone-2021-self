@@ -1,0 +1,10 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 13px;
+}
+
+.status-bar__column i{
+    margin-left: 3px;
+}
