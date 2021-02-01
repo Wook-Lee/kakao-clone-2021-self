@@ -250,3 +250,7 @@
     padding: 30px 80px;
 }
 
+.chats__chat__send__row__timestamp__bubble:hover,
+.chats__chat__receive__row__timestamp__bubble:hover{
+    transform: scale(1.1);
+}
