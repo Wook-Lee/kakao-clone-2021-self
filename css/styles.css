@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import "reset.css";
+@import "valuable.css";
+/*component*/
+@import "component/header.css";
+@import "component/statuus-bar.css";
+@import "component/component.css";
+@import "component/nav.css";
+@import "component/big-screen.css";
+/*screen*/
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+body{
+    height: 1000vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+.margin_side{
+    margin: 0px 20px;
+}
+
+main{
+    margin-top: 90px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,98 @@
+.find__icons{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line-color);
+    padding-bottom: 30px;
+
+}
+.find__icons__icon i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.find__icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.find__recommended-friends{
+    padding-top: 30px;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.find__recommended-friends__title,
+.find__recommended-friends__content{
+    color: var(--font-color);
+}
+
+.find__recommended-friends__content{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find__open-chat{
+    margin-top: 30px;
+}
+.find__open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    margin-bottom: 15px;
+}
+.find__open-chat__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--line-color);
+}
+.find__open-chat__content__content__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.find__open-chat__content__content__writer-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.find__open-chat__content__content__writer{
+    display: flex;
+    align-items: center;
+}
+.find__open-chat__content__content__hashtag{
+    color: var(--font-color);
+    margin: 8px 0px;
+}
+
+.find__open-chat__content__content__writer-name{
+    padding-right: 5px;
+    border-right: 1px solid var(--font-color);
+    margin-right: 5px;
+    color: var(--font-color);
+}
+.find__open-chat__content__content__writer-status{
+    color: #ffc3e8;
+}
+.find__open-chat__content__content{
+    position: relative;
+}
+.find__open-chat__like{
+    background-color: var(--font-color);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+
+.find__open-chat__like i{
+    margin-right: 5px;
+}

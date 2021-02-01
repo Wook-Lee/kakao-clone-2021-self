@@ -1,0 +1,104 @@
+.component__lg-img{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+.component__img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 25px;
+}
+.component__list__column{
+    display: flex;
+    align-items: center;
+
+}
+
+.component__user-name-lg{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.component__list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line-color);
+    margin: 0px 18px;
+
+    padding: 15px 0px;
+}
+.component__list__title{
+    padding-top: 15px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.component__list__column .component__list__column__column:first-child,
+.component__timestamp,
+.component__list__title__column{
+    color: var(--font-color)
+}
+
+.component__list__contents{
+    display: block;
+}
+
+.component__list__contents span{
+    display: flex;
+    align-items: center;
+}
+.component__list__column:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.component__talk{
+    font-size: 15px;
+    color: var(--font-color);
+}
+
+.component__timestamp,
+.component__user-name-lg,
+.component__user-name{
+    margin-bottom: 5px;
+}
+
+.component__notice-big{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+}
+.component__notice-small{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.component__list{
+    cursor: pointer;
+}
+
+.component__list__contents__user-info{
+    display: flex;
+    align-items: center;
+}
+.component__list__contents__user-info i{
+    color: tomato
+}
+.component__list__contents__user-info span{
+    margin-right: 10px;
+}

@@ -1,0 +1,28 @@
+.settings__settings__list-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--line-color);
+    padding-bottom: 20px;
+}
+
+.settings__settings__list-row{
+    border-bottom: 1px solid var(--line-color);
+}
+.settings__settings__list-row:last-child{
+    padding-bottom: 60px;
+}
+
+.settings__settings__list-row__column i{
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.settings__settings__list-row__column .settings__settings__list-row__column__status{
+    color: var(--font-color);
+}
+
+.settings__settings__list-row:first-child{
+    padding-top: 20px;
+}

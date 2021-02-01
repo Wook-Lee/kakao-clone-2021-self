@@ -1,0 +1,30 @@
+.status{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    z-index: 5;
+    background-color: white;
+}
+.status__column{
+    width: 33%;
+}
+.status__column:first-child{
+    display: flex;
+    justify-content: flex-start;
+}
+.status__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.status__column i{
+    margin-left: 5px;
+}
